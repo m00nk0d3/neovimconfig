@@ -1,10 +1,8 @@
 return {
-  "neanias/everforest-nvim",
-  lazy = true,
+  "rebelot/kanagawa.nvim",
+  lazy = false,
   priority = 1000,
   config = function()
-    return {
-      transparent = true,
-    }
+    vim.cmd("colorscheme kanagawa")
   end,
 }
