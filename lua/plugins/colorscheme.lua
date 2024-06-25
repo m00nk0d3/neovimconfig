@@ -2,7 +2,7 @@ return {
   "neanias/everforest-nvim",
   lazy = true,
   priority = 1000,
-  opts = function()
+  config = function()
     return {
       transparent = true,
     }
