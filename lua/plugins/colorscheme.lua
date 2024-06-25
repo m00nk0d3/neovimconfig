@@ -1,5 +1,5 @@
 return {
-  "neanias/everforest-nvim",
+  "rebelot/kanagawa.nvim",
   lazy = true,
   priority = 1000,
   config = function()
